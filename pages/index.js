@@ -96,26 +96,6 @@ export default function Home() {
                 Email: knong39@yahoo.com, panyawadee1@yahoo.co.th
               </p>
             </div>
-            <div className="w-full md:w-1/3">
-              <h5 className="mb-3 font-bold">ฝ่ายขาย/การตลาด</h5>
-              <p className="mb-3">คุณสมยศ เกตุทะเล(ผจก. ฝ่ายการตลาด)</p>
-              <p className="mb-3">Tel. 085-172-8422</p>
-              <p className="mb-3">Email : psc.team.2018@gmail.com</p>
-            </div>
-            <div className="w-full md:w-1/3">
-              <h5 className="mb-3 font-bold">CUSTOMER SERVICE</h5>
-              <p className="mb-3">คุณจริยา ยิ่งยง</p>
-              <p className="mb-3">Tel. 061-916-5345</p>
-              <p className="mb-3">Email:cs.psc.2018@gmail.com</p>
-            </div>
-            <div className="w-full md:w-1/3">
-              <h5 className="mb-3 font-bold">ฝ่ายบุคคล/ดำเนินงาน</h5>
-              <p className="mb-3">
-                คุณสรรเสริญ เทียนทองดี (ผจก.บุคคลเเละฝ่ายดำเนินงาน)
-              </p>
-              <p className="mb-3">Tel.092-345-5824</p>
-              <p className="mb-3">Email :thienthongdede@gmail.com</p>
-            </div>
           </div>
         </div>
       </footer>
