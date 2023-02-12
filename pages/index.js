@@ -99,9 +99,9 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      <div class="bg-gray-800 text-white py-4">
-        <div class="container mx-auto text-center">
-          <p class="text-sm">&copy; PSC Transportation. All rights reserved.</p>
+      <div className="bg-gray-800 text-white py-4">
+        <div className="container mx-auto text-center">
+          <p className="text-sm">&copy; PSC Transportation. All rights reserved.</p>
         </div>
       </div>
     </>
