@@ -47,84 +47,114 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="w-full flex justify-center gap-2 mb-5">
-            {/* <div className="w-[250px] h-[250px] overflow-hidden flex items-center">
-              <img
-                src="/images/yard_top.jpg"
-                alt="yard front psc transport"
-                className="h-full object-cover object-center"
-              />
-            </div> */}
-            <div className="w-[250px] h-[250px] overflow-hidden flex items-center">
+          <div className="w-full flex justify-center gap-2 mb-5 lg:mb-10">
+            <div className="w-[100px] h-[100px] lg:w-[250px] lg:h-[250px] overflow-hidden flex items-center">
               <img
                 src="/images/yard_middle.jpg"
                 alt="yard front psc transport"
-                className="lg:w-full object-cover object-center h-full"
+                className="object-cover object-center h-full w-full"
               />
             </div>
-            <div className="w-[250px] h-[250px] overflow-hidden flex items-center ">
+            <div className="w-[100px] h-[100px] lg:w-[250px] lg:h-[250px] overflow-hidden flex items-center ">
               <img
                 src="/images/yard_side_dark.jpg"
                 alt="yard front psc transport"
-                className="h-full object-cover object-center"
+                className="object-cover object-center h-full w-full"
               />
             </div>
-            <div className="w-[250px] h-[250px] overflow-hidden flex items-center ">
+            <div className="w-[100px] h-[100px] lg:w-[250px] lg:h-[250px] overflow-hidden flex items-center ">
               <img
                 src="/images/yard_side_light.jpg"
                 alt="yard front psc transport"
-                className="h-full object-cover object-center"
+                className="object-cover object-center h-full w-full"
               />
             </div>
           </div>
-          <div className="flex flex-col text-left mb-3">
-            <h3 className="text-2xl font-medium mb-4 text-[var(--primary)]">
-              Services we offer:
-            </h3>
-            <ul className="list-disc pl-5 text-lg mb-3">
-              <li>
-                Yard-to-Factory Transport: We will pick up your containers at
-                the yard and deliver them directly to your factory, ensuring
-                that your goods arrive on time and in perfect condition.
-              </li>
-              <li>
-                Factory-to-Yard Transport: We will pick up containers from your
-                factory and transport them safely to the yard, ready for your
-                next shipment.
-              </li>
-            </ul>
-            <p className="text-lg leading-relaxed">
-              Each of our services is backed by our commitment to safety,
-              sustainability, and innovation, and we use the latest technology
-              to ensure the smooth and efficient delivery of your goods. Whether
-              you need a one-off shipment or a regular service, we have the
-              expertise and resources to meet your needs.
-            </p>
-            <p className="text-lg leading-relaxed">
-              &emsp;Our transportation business operates a fleet of
-              top-of-the-line vehicles designed to provide the utmost in safety
-              and efficiency. Our vehicles are equipped with the latest
-              technology and undergo regular maintenance to ensure they are
-              always ready to provide reliable and seamless transport.
-            </p>
+          <div className="flex flex-col text-left mb-3 lg:w-[80%] lg:mx-auto">
+            <div className="flex items-center justify-evenly mb-5">
+              <ul className="list-disc pl-5 text-md mb-5 lg:mb-7 lg:w-[40%]">
+                <h3 className="text-4xl font-extrabold mb-5 text-[var(--primary)]">
+                  Our Service
+                </h3>
+                <li className="mb-3">
+                  Yard-to-Factory Transport: We will pick up your containers at
+                  the yard and deliver them directly to your factory, ensuring
+                  that your goods arrive on time and in perfect condition.
+                </li>
+                <li>
+                  Factory-to-Yard Transport: We will pick up containers from
+                  your factory and transport them safely to the yard, ready for
+                  your next shipment.
+                </li>
+              </ul>
+              <div className="w-0 h-0 lg:w-[40%] lg:h-[200px] overflow-hidden">
+                <img
+                  src="/images/yard_container_full.jpg"
+                  alt="container"
+                  className="object-cover object-center h-full w-full"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="lg:flex items-center justify-evenly lg:mb-5">
+                <div className="w-full h-[200px] lg:w-[40%] lg:h-[200px] overflow-hidden mb-5 lg:mb-0">
+                  <img
+                    src="/images/cargo_ship.jpg"
+                    alt="cargo ship container transports"
+                    className="object-cover object-left h-full w-full"
+                  />
+                </div>
+                <div className="lg:w-[50%]">
+                  <p className="text-md leading-relaxed">
+                    Each of our services is backed by our commitment to safety,
+                    sustainability, and innovation, and we use the latest
+                    technology to ensure the smooth and efficient delivery of
+                    your goods. Whether you need a one-off shipment or a regular
+                    service, we have the expertise and resources to meet your
+                    needs.
+                  </p>
+                </div>
+              </div>
+              <div className="lg:w-[90%] lg:mx-auto">
+                <p className="text-md leading-relaxed">
+                  &emsp;Our transportation business operates a fleet of
+                  top-of-the-line vehicles designed to provide the utmost in
+                  safety and efficiency. Our vehicles are equipped with the
+                  latest technology and undergo regular maintenance to ensure
+                  they are always ready to provide reliable and seamless
+                  transport.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="flex flex-col text-left">
-            <h3 className="text-2xl font-medium mb-4 text-[var(--primary)]">
-              Our vehicles include:
-            </h3>
-            <ul className="list-disc pl-5 text-lg">
-              <li>
-                2 Axles, 10-Wheel Vehicles: Our 2-axle, 10-wheel vehicles have a
-                capacity to accommodate 20DC, 40DC, and 40HC containers and are
-                equipped with air conditioning and GPS tracking for added
-                comfort and safety.
-              </li>
-            </ul>
-            <p className="text-lg leading-relaxed">
-              We are proud to offer a fleet of vehicles that are safe, reliable,
-              and well-maintained, ensuring that your goods are transported with
-              the utmost care and precision.
-            </p>
+          <div className="flex flex-col text-left lg:w-[80%] lg:mx-auto">
+            <div className="lg:flex lg:justify-evenly items-center mb-5">
+              <div className="lg:w-[40%]">
+                <ul className="list-disc pl-5 text-md mb-5">
+                  <h3 className="text-4xl font-extrabold mb-5 text-[var(--primary)]">
+                    Our vehicles
+                  </h3>
+                  <li>
+                    2 Axles, 10-Wheel Vehicles: Our 2-axle, 10-wheel vehicles
+                    have a capacity to accommodate 20DC, 40DC, and 40HC
+                    containers and are equipped with air conditioning and GPS
+                    tracking for added comfort and safety.
+                  </li>
+                </ul>
+                <p className="text-md leading-relaxed mb-5">
+                  We are proud to offer a fleet of vehicles that are safe,
+                  reliable, and well-maintained, ensuring that your goods are
+                  transported with the utmost care and precision.
+                </p>
+              </div>
+              <div className="w-full h-[200px] lg:w-[40%] lg:h-[200px] overflow-hidden mb-5 lg:mb-0">
+                <img
+                  src="/images/yard_back.jpg"
+                  alt="trailer container yard"
+                  className="object-cover object-left h-full w-full"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </main>

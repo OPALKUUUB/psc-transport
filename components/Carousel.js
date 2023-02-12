@@ -32,25 +32,18 @@ function Carousel() {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full mt-[40px] lg:mt-[119px] lg:mb-10">
       <AutoPlaySwipeableViews
         enableMouseEvents
         index={currentSlide}
         onChangeIndex={handleSlideChange}
       >
-        {/* <div
-          style={{
-            backgroundImage: `url('/images/carousel/carousel_1.jpg')`,
-            backgroundSize: "100% 100%",
-          }}
-          className="sm:min-h-[500px] min-h-[200px] "
-        ></div> */}
         <div
           style={{
             backgroundImage: `url('/images/carousel/carousel_2.jpg')`,
             backgroundSize: "100% 100%",
           }}
-          className="sm:min-h-[500px] min-h-[200px] "
+          className="sm:min-h-[500px] min-h-[200px]"
         ></div>
         <div
           style={{

@@ -11,8 +11,8 @@ const nav_lists = [
 
 function Navbar() {
   return (
-    <div className="w-full h-[120px] bg-[var(--primary)]">
-      <div className="w-[170px] md:w-[50%] inline-block h-full pt-[20px] pl-4">
+    <div className="w-full h-[70px] lg:h-[120px] bg-[var(--primary)] fixed top-0 left-0 z-[999] flex justify-between shadow-md">
+      <div className="w-[100px] md:w-[50%] inline-block h-full pt-2 lg:pt-[20px] pl-4">
         <div className="inline-block">
           <Logo />
         </div>
@@ -22,7 +22,7 @@ function Navbar() {
           </h3>
         </div>
       </div>
-      <div className="w-[50%] inline-block font-mono sm:text-[1rem] md:text-[1.3rem]">
+      <div className="font-mono text-[.9rem] lg:text-[1rem] flex self-end pb-3">
         <NavList lists={nav_lists} />
       </div>
     </div>
@@ -31,7 +31,7 @@ function Navbar() {
 
 const NavList = ({ lists }) => {
   return (
-    <ul className="list-none float-right">
+    <ul className="list-none flex">
       {lists.map((navItem, index) => (
         <li key={`NavList-${index}`} className="inline-block md:mr-10 mr-2 mb-2 md:mb-0">
           <Link
