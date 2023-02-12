@@ -7,32 +7,75 @@ export default function Home() {
     <>
       <Navbar />
       <Carousel />
-      <main id="body" className="m-5 p-5 font-sans">
+      <main id="body" className="font-sans p-2 m-2">
         <div>
-          <h2 className="uppercase mb-6 lg:text-3xl font-bold lg:text-center text-[var(--primary)]">
+          {/* <h2 className="uppercase mb-6 mt-3 text-[var(--primary)] font-bold lg:text-4xl lg:text-center lg:mt-[50px]">
             welcome to psc webpage
-          </h2>
-          <div className="lg:flex lg:gap-5 mb-5">
-            <p className="text-lg leading-relaxed text-left">
-              &emsp;Welcome to our transportation business, where we specialize
-              in the seamless movement of containers between yards and
-              factories. Established in 2012, we have built a reputation for
-              reliability and efficiency in our industry.
-            </p>
-            <p className="text-lg leading-relaxed text-left">
-              &emsp;Our mission is to provide exceptional transportation
-              services that meet the unique needs of our clients, while also
-              setting new standards for safety, sustainability, and innovation.
-              We believe that every shipment is an opportunity to demonstrate
-              our commitment to our customers, and we work tirelessly to ensure
-              that every delivery is completed on-time and in perfect condition.
-            </p>
-            <p className="text-lg leading-relaxed text-left">
-              &emsp;Our values of dependability, teamwork, and continuous
-              improvement are at the heart of everything we do. We are proud to
-              be a trusted partner to businesses across the region, and we look
-              forward to serving you soon.
-            </p>
+          </h2> */}
+          <div className="lg:flex lg:gap-5 lg:justify-center lg:px-10 mt-5 mb-5">
+            <div className="mb-5 lg:w-[300px]">
+              <h4 className="text-center mb-1 text-[1.5rem] font-[300]">
+                About Us
+              </h4>
+              <p className="text-sm leading-relaxed text-left">
+                &emsp;Welcome to our transportation business, where we
+                specialize in the seamless movement of containers between yards
+                and factories. Established in 2012, we have built a reputation
+                for reliability and efficiency in our industry.
+              </p>
+            </div>
+            <div className="mb-5 lg:w-[300px]">
+              <h4 className="text-center mb-1 text-[1.5rem] font-[300]">
+                Our Mission
+              </h4>
+              <p className="text-sm leading-relaxed text-left">
+                &emsp;Our mission: exceptional transportation services, meeting
+                unique client needs with safety, sustainability, and innovation.
+                Every shipment a commitment to on-time delivery in perfect
+                condition.
+              </p>
+            </div>
+            <div className="mb-5 lg:w-[300px]">
+              <h4 className="text-center mb-1 text-[1.5rem] font-[300]">
+                Our Core Values
+              </h4>
+              <p className="text-sm leading-relaxed text-left">
+                &emsp;Our values of dependability, teamwork, and continuous
+                improvement are at the heart of everything we do. We are proud
+                to be a trusted partner to businesses across the region, and we
+                look forward to serving you soon.
+              </p>
+            </div>
+          </div>
+          <div className="w-full flex justify-center gap-2 mb-5">
+            {/* <div className="w-[250px] h-[250px] overflow-hidden flex items-center">
+              <img
+                src="/images/yard_top.jpg"
+                alt="yard front psc transport"
+                className="h-full object-cover object-center"
+              />
+            </div> */}
+            <div className="w-[250px] h-[250px] overflow-hidden flex items-center">
+              <img
+                src="/images/yard_middle.jpg"
+                alt="yard front psc transport"
+                className="lg:w-full object-cover object-center h-full"
+              />
+            </div>
+            <div className="w-[250px] h-[250px] overflow-hidden flex items-center ">
+              <img
+                src="/images/yard_side_dark.jpg"
+                alt="yard front psc transport"
+                className="h-full object-cover object-center"
+              />
+            </div>
+            <div className="w-[250px] h-[250px] overflow-hidden flex items-center ">
+              <img
+                src="/images/yard_side_light.jpg"
+                alt="yard front psc transport"
+                className="h-full object-cover object-center"
+              />
+            </div>
           </div>
           <div className="flex flex-col text-left mb-3">
             <h3 className="text-2xl font-medium mb-4 text-[var(--primary)]">
@@ -101,7 +144,9 @@ export default function Home() {
       </footer>
       <div className="bg-gray-800 text-white py-4">
         <div className="container mx-auto text-center">
-          <p className="text-sm">&copy; PSC Transportation. All rights reserved.</p>
+          <p className="text-sm">
+            &copy; PSC Transportation. All rights reserved.
+          </p>
         </div>
       </div>
     </>

@@ -11,7 +11,7 @@ const nav_lists = [
 
 function Navbar() {
   return (
-    <div className="min-w-[100vw] h-[120px] bg-[var(--primary)]">
+    <div className="w-full h-[120px] bg-[var(--primary)]">
       <div className="w-[170px] md:w-[50%] inline-block h-full pt-[20px] pl-4">
         <div className="inline-block">
           <Logo />
