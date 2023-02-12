@@ -71,7 +71,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col text-left mb-3 lg:w-[80%] lg:mx-auto">
-            <div className="flex items-center justify-evenly mb-5">
+            <div className="lg:flex items-center justify-evenly mb-5">
               <ul className="list-disc pl-5 text-md mb-5 lg:mb-7 lg:w-[40%]">
                 <h3 className="text-4xl font-extrabold mb-5 text-[var(--primary)]">
                   Our Service
@@ -87,7 +87,7 @@ export default function Home() {
                   your next shipment.
                 </li>
               </ul>
-              <div className="w-0 h-0 lg:w-[40%] lg:h-[200px] overflow-hidden">
+              <div className="w-full h-[200px] lg:w-[40%] lg:h-[200px] overflow-hidden mb-5 lg:mb-0">
                 <img
                   src="/images/yard_container_full.jpg"
                   alt="container"
@@ -96,14 +96,8 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div className="lg:flex items-center justify-evenly lg:mb-5">
-                <div className="w-full h-[200px] lg:w-[40%] lg:h-[200px] overflow-hidden mb-5 lg:mb-0">
-                  <img
-                    src="/images/cargo_ship.jpg"
-                    alt="cargo ship container transports"
-                    className="object-cover object-left h-full w-full"
-                  />
-                </div>
+              <div className="lg:flex lg:flex-row-reverse items-center justify-evenly lg:mb-5">
+                
                 <div className="lg:w-[50%]">
                   <p className="text-md leading-relaxed">
                     Each of our services is backed by our commitment to safety,
@@ -113,6 +107,13 @@ export default function Home() {
                     service, we have the expertise and resources to meet your
                     needs.
                   </p>
+                </div>
+                <div className="w-full h-[200px] lg:w-[40%] lg:h-[200px] overflow-hidden mb-5 lg:mb-0">
+                  <img
+                    src="/images/cargo_ship.jpg"
+                    alt="cargo ship container transports"
+                    className="object-cover object-left h-full w-full"
+                  />
                 </div>
               </div>
               <div className="lg:w-[90%] lg:mx-auto">
