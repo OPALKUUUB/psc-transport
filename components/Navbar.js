@@ -4,9 +4,9 @@ import Logo from "./Logo";
 
 const nav_lists = [
   { label: "home", path: "/home" },
-  { label: "about", path: "/about" },
-  { label: "services", path: "/services" },
-  { label: "contacts", path: "/contacts" },
+  { label: "about", path: "#about" },
+  { label: "services", path: "#services" },
+  { label: "contacts", path: "#contacts" },
 ];
 
 function Navbar() {

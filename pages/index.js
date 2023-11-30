@@ -9,12 +9,9 @@ export default function Home() {
       <Carousel />
       <main id="body" className="font-sans p-2 m-2">
         <div>
-          {/* <h2 className="uppercase mb-6 mt-3 text-[var(--primary)] font-bold lg:text-4xl lg:text-center lg:mt-[50px]">
-            welcome to psc webpage
-          </h2> */}
           <div className="lg:flex lg:gap-5 lg:justify-center lg:px-10 mt-5 mb-5">
             <div className="mb-5 lg:w-[300px]">
-              <h4 className="text-center mb-1 text-[1.5rem] font-[300]">
+              <h4 id="about" className="text-center mb-1 text-[1.5rem] font-[300]">
                 About Us
               </h4>
               <p className="text-sm leading-relaxed text-left">
@@ -70,7 +67,7 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className="flex flex-col text-left mb-3 lg:w-[80%] lg:mx-auto">
+          <div id="services" className="flex flex-col text-left mb-3 lg:w-[80%] lg:mx-auto">
             <div className="lg:flex items-center justify-evenly mb-5">
               <ul className="list-disc pl-5 text-md mb-5 lg:mb-7 lg:w-[40%]">
                 <h3 className="text-4xl font-extrabold mb-5 text-[var(--primary)]">
@@ -97,7 +94,6 @@ export default function Home() {
             </div>
             <div>
               <div className="lg:flex lg:flex-row-reverse items-center justify-evenly lg:mb-5">
-                
                 <div className="lg:w-[50%]">
                   <p className="text-md leading-relaxed">
                     Each of our services is backed by our commitment to safety,
@@ -161,7 +157,7 @@ export default function Home() {
       </main>
       <footer className="bg-[var(--secondary)] text-white py-6 font-sans">
         <div className="container mx-auto px-5">
-          <h2 className="uppercase font-bold mb-4">Contact Us</h2>
+          <h2 id="contacts" className="uppercase font-bold mb-4">Contact Us</h2>
           <div className="flex flex-wrap">
             <div className="w-full md:w-1/3">
               <h5 className="mb-3 font-bold">HEAD OFFICE</h5>
